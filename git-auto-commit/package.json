@@ -4,6 +4,10 @@
   "publisher": "UWXanderHayhoe",
   "description": "git auto commit feature for ECE-327",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XanderHayhoe/Auto-Git-Commit"
+  },
   "engines": {
     "vscode": "^1.97.0"
   },
