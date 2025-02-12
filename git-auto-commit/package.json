@@ -9,13 +9,25 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:git-auto-commit.autoCommit"
+  ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "git-auto-commit.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+    "command": "git-auto-commit.autoCommit",
+    "title": "Auto Git Commit"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "git-auto-commit.autoCommit",
+        "key": "ctrl+alt+a",
+        "mac": "cmd+alt+a",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
