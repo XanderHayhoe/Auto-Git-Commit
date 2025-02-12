@@ -8,3 +8,7 @@ Mac: `cmd + s` <br>
 
 Want changes? Please open a PR on the parent repo, or reach out to me directly at amwhayho@uwaterloo.ca. My testing was pretty limited, as I made this extension
 quicky and didn't rigorously go through any tests!
+
+## some notes:
+
+Should I delete the message that pops up in the bottom right when you arent in an ECE 327 folder?
