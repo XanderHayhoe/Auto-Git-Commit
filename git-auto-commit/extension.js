@@ -21,17 +21,17 @@ function activate(context) {
       // we need to verify that our workspace is a git repo and that it is in ECE-327 or ECE327. perhaps in the future we can add a
       // configuration option to allow the user to specify the parent folders they want auto commit enabled for.
       const workspaceRoot = workspaceFolders[0].uri.fsPath;
-      const lowerWorkspaceRoot = workspaceRoot.toLowerCase();
+      // const lowerWorkspaceRoot = workspaceRoot.toLowerCase();
 
-      if (
-        !lowerWorkspaceRoot.includes("ece-327") &&
-        !lowerWorkspaceRoot.includes("ece327")
-      )
-        return;
+      // if (
+      //   !lowerWorkspaceRoot.includes("ece-327") &&
+      //   !lowerWorkspaceRoot.includes("ece327")
+      // )
+      //   return;
       // return vscode.window.showErrorMessage(
       //   "Workspace is not in ECE-327 or ECE327"
       // );
-
+      //cmt
       if (!workspaceRoot) {
         vscode.window.showErrorMessage("No workspace is open");
         return;
