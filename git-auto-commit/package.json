@@ -28,8 +28,8 @@
     "keybindings": [
       {
         "command": "git-auto-commit.autoCommit",
-        "key": "ctrl+s",
-        "mac": "cmd+s",
+        "key": "ctrl+alt+s",
+        "mac": "cmd+alt+s",
         "when": "editorTextFocus"
       }
     ]

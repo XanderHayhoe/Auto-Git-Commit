@@ -27,9 +27,10 @@ function activate(context) {
         !lowerWorkspaceRoot.includes("ece-327") &&
         !lowerWorkspaceRoot.includes("ece327")
       )
-        return vscode.window.showErrorMessage(
-          "Workspace is not in ECE-327 or ECE327"
-        );
+        return;
+      // return vscode.window.showErrorMessage(
+      //   "Workspace is not in ECE-327 or ECE327"
+      // );
 
       if (!workspaceRoot) {
         vscode.window.showErrorMessage("No workspace is open");
@@ -48,6 +49,7 @@ function activate(context) {
       terminal.show();
     }
   );
+  // g
 
   context.subscriptions.push(disposable);
 }
