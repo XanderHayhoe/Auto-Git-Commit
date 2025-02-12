@@ -3,7 +3,7 @@
   "displayName": "Git-Auto-Commit-ECE327",
   "publisher": "UWXanderHayhoe",
   "description": "git auto commit feature for ECE-327",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/XanderHayhoe/Auto-Git-Commit"
